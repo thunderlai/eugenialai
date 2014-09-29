@@ -47,6 +47,7 @@ SSH:
 	* can be performed from the command line, using "ssh" command
 	* google "ssh" to learn usage
 
+
 Version Control
 ===============
 Version control is used by developers to track and merge changes, branch, and roll back.
@@ -69,3 +70,11 @@ These features allow many people to be working on the same code base at the same
 
 	paid:
 		Tower
+
+
+The GitHib client allows to commit to your local repository and also create a master repository on github.com
+free Github accounts are not private, only paid accounts are private
+* create a repository based on either an existing folder or a new folder
+* make a change to files within that folder.
+* you should see the changes reported by the github client for the selected repository
+* when you make changes and are satisfied with the state of the changes such that you want to make a commit, use the github client to commit the changes.
