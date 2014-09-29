@@ -1,0 +1,71 @@
+Three basic tools:
+* Text Editor		- for writing, editing code. 
+* FTP client		- for transferring files for remote to local and vice versa
+* Version control 	- for tracking changes, branching, roll back
+
+Other useful tools:
+* WYSIWYG Editor 	- 
+
+
+Text Editor
+===================
+Good text editors have features like language support, code completion, syntax highlighting
+For web development, generally you want a more lightweight code editor (something that loads and runs fast)
+
+Recommended text editors for Mac OS X:
+	Sublime Text 2 
+	TextWrangler
+	Komodo Edit
+	MacVim (requires knowledge of VI)
+	Eclipse (more full fledged IDE)
+
+TextEdit is the free, included text editor with Mac OS X. Has no code features but can do the job.
+XCode (also free with Mac OS X) is Apple's set of development tools. More powerful than needed for web dev but great set of dev tools.
+
+
+File transfer
+===================
+FTP:
+File transfer protocol
+An FTP client will allow you to transfer files to and from a server that supports FTP (should be most all)
+* Connect to a remote server
+* log in
+* transfer files to/from
+
+Choose an FTP client:
+	free:
+		native Mac FTP client (Cmd + K from the Finder)
+		Filezilla
+		CyberDuck
+	paid:
+		Transmit
+		Fetch
+
+SSH:
+	Secure Shell
+	* allows remote command of another computer
+	* can be performed from the command line, using "ssh" command
+	* google "ssh" to learn usage
+
+Version Control
+===============
+Version control is used by developers to track and merge changes, branch, and roll back.
+
+Git allows you to have a local repository and a remote repository. 
+You can set up a remote repository on websites such as GitHub or Bitbucket
+Even just setting up a local repository and committing changes to it is useful for one man development.
+
+
+Whenever you make changes to source code, you can "commit" them to your repository. 
+This is basically like a "save point". Git tracks the changes you made and allows you to roll back your files to any one particular commit/revision.
+
+If working with multiple developers on the same repository, Git allows you to get their changes, do merges, resolve conflicts.
+These features allow many people to be working on the same code base at the same time.
+
+* Choose a GIT client
+	free:
+		GitHub
+		SourceTree
+
+	paid:
+		Tower
