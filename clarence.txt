@@ -78,3 +78,7 @@ free Github accounts are not private, only paid accounts are private
 * make a change to files within that folder.
 * you should see the changes reported by the github client for the selected repository
 * when you make changes and are satisfied with the state of the changes such that you want to make a commit, use the github client to commit the changes.
+
+
+* SourceTree
+	allows you to do more complicated git stuff like merge, rebase, cherry-pick
